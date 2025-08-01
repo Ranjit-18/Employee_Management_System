@@ -1,0 +1,29 @@
+/* Make body take full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* App layout wrapper */
+.app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Let main content grow */
+.content {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
